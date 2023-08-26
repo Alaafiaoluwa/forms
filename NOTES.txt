@@ -1,0 +1,264 @@
+extensions - .html, .css, .js
+
+html - hypertext markup language - structure of the website
+
+css - cascading style sheet - design the website
+
+js - javascript - functionalities
+
+
+HTML - tags (open and close) - exceptions <br/> <img/>
+
+- everything goes within tags
+
+- make sure to close any tag you open except the break and image tag
+
+<p></p>
+
+<p>this is a paragraph</p>
+
+<p><b>this is a bold text</b> this would not be bold</p>
+
+<i></i>
+
+<strong></strong>
+---------------
+
+<span></span>
+
+<div></div>
+
+<table></table>
+
+<ul></ul>
+
+<ol></ol>
+
+<head></head>
+
+<body></body>
+
+<title></title>
+
+--------
+inline and block tags
+
+inline - e.g span, a
+
+block - e.g div, p
+
+containera - div, span, nav, footer, section, article, aside, 
+
+RULES: (continues/starts on a new line)
+
+inline x inline = continue
+
+inline x block = start on a new line
+
+block x inline = start on a new line
+
+block x block = start on a new line
+
+ 
+
+--------
+html structure
+
+<!DOCTYPE html>
+
+<head>
+<metaset device-width=2.0" charSet='' />
+<title>Coding</title>
+</head>
+<body></body>
+
+----------
+COMMENTING
+
+<!-- this is a comment -->
+
+----------
+ATTRIBUTES
+
+src
+
+alt
+
+style
+
+class
+
+id
+
+table: bordered
+
+
+----------
+TERMINAL
+
+GUI - Graphic User Interface
+
+ls - list the files
+
+cd - change directory
+
+cd .. - go back
+
+----------------
+EXTENSIONS
+
+- additional features for vsCode
+----------------
+TABLE TAG
+
+- consists of thead and tbody
+
+- inside thead and tbody, there is tr (table row), inside tr is td (table data)
+----------------
+PATHS AND TYPES OF PATHS
+
+-------------------
+PX, REM, EM, %, vh, vw
+
+1rem - 16px
+
+em - 10px??
+
+% - percentage
+
+vh - view height
+
+vw - view width
+
+---------------------------
+lorem ipsum
+
+-------------------------------
+headings
+
+h1, h2, h3, h4, h5, h6
+
+-------------------------------
+a tag
+
+---------------------------
+form
+
+input - text, number, date, color, radio, checkbox
+
+select
+
+textarea
+
+button
+
+label (to revisit)
+
+---------------------------
+vs code shortcuts
+
+------------------------------
+CSS - Cascading Style Sheet
+
+inline css, internal css, external css
+
+------------------------------------
+
+css selectors: 
+
+tag, class, id, universal selector
+
+-----------------------------------
+POWER STRUGGLE
+
+- inline css > internal css
+
+- inline > id > class > tag > *
+
+- styles appearing below override those above, for the same type of css selector or css property
+
+---------------------------------
+DIFFERENCE BETWEEN CLASS AND ID
+
+CLASS
+
+- two or more elements can have the same class
+
+- one element can have multiple classes (just add a space between different classes)
+
+- the names cannot be the same or it would be overrided
+
+ID 
+
+- id is unique for each element
+
+----------------------------------
+BLOCK AND INLINE
+
+INHERITANCE
+
+MULTIPLE SELECTOR
+
+---------------------------------
+
+PROPERTY AND VALUE
+
+
+background-color - used to change the background color
+
+color - used to change text color
+
+-------------------------------------
+
+COLOR AND UNITS
+
+color - name, hex, rgb, rgba, hsl
+
+HEX - (starts with #)(number of characters can either be 3 or 6)(the values ranges from 0 - f)(#333)
+
+RGB - (starts with rgb() )(number of characters can only be 3 seperated by a comma)(the values ranges 0 - 255)
+
+RGBA - (same thing as RGB) (Except that it has four values) (the fourth value ranges from 0-1)
+
+units - px, em, rem, %, vw, vh
+
+---------------------------------
+min-height || min-width || max-width || max-height
+
+TYPOGRAPHY: font-family,  generic fonts, google fonts, text-align, text-indent, font-size, font-weight,
+
+BOX MODEL: padding, margin, border, border-radius
+
+DISPLAY
+
+--------------------------------------------
+BORDER:
+
+border-width
+
+border-style
+
+border-color
+
+-------------------
+other values of the width and height
+----------------------
+POSITION
+
+static (default)
+
+relative
+
+absolute (top, bottom, left, right)
+
+sticky
+
+fixed
+
+---------------------
+z-index
+
+default value is 1
+
+
+
