@@ -1,0 +1,47 @@
+h1 {
+  background-color: beige;
+  height: 15vh;
+  width: 50vw;
+}
+.introduction {
+  background-color: rgb(133, 168, 186);
+  color: brown;
+}
+.forms {
+  color: rgb(205, 36, 188);
+}
+#heading3 {
+  color: darkolivegreen;
+  background-color: cyan;
+  height: 2rem;
+  width: 30rem;
+}
+.head {
+  background-color: aquamarine;
+  color: darkolivegreen;
+}
+#headed {
+  background-color: cadetblue;
+  color: brown;
+}
+.hhhh {
+  background-color: burlywood;
+  color: chocolate;
+}
+.llll {
+  color: blueviolet;
+  background-color: darksalmon;
+}
+.purpleblock {
+  background-color: purple;
+  height: 30rem;
+  width: 30rem;
+}
+.pinkblock {
+  background-color: pink;
+  height: 30%;
+}
+.orchidblock {
+  background-color: orchid;
+  height: 30%;
+}

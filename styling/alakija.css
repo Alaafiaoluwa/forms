@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  background-color: rgb(242, 119, 160);
+  color: white;
+}
+.move {
+  text-align: center;
+  color: peachpuff;
+  background-color: rgb(86, 16, 16);
+  height: 30%;
+  /* margin-top: 0%; */
+  /* margin-left: 0%; */
+  font-weight: 900;
+  border: 20px solid rgb(253, 111, 123);
+  /* min-width: 50%; */
+  /* max-width: 80%; */
+  margin: 0;
+  /* padding: 20px unset; */
+}
+.gg {
+  text-align: initial;
+  text-indent: 30px;
+  padding: 15px unset;
+  text-align: justify;
+  font-style: italic;
+}
+h4 {
+  text-transform: initial;
+  text-decoration: underline;
+}

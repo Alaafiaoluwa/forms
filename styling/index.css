@@ -1,0 +1,49 @@
+*,
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+
+fieldset {
+  padding: 0 10px 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  width: 30rem;
+  /* border: 2px solid blue; */
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+label {
+  /* border: 2px solid brown; */
+  width: 50%;
+  /* display: block; */
+  display: inline-block;
+}
+
+input,
+textarea,
+select {
+  width: 40%;
+}
+
+.bio {
+  height: 60px;
+}
+
+.biography,
+textarea {
+  height: 60px;
+  display: inline;
+}
